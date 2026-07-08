@@ -1,3 +1,4 @@
+import Link from "next/link";
 import DoseResponse from "@/components/DoseResponse";
 import FindingsChart from "@/components/FindingsChart";
 import Footer from "@/components/Footer";
@@ -81,6 +82,24 @@ export default function Home() {
       >
         <MediationViz />
       </Section>
+
+      <section className="mx-auto w-full max-w-6xl px-5 py-4">
+        <Link
+          href="/screening"
+          className="card group flex flex-col items-start justify-between gap-4 p-6 transition-colors hover:border-good/50 md:flex-row md:items-center md:p-8"
+        >
+          <div>
+            <p className="eyebrow text-good">Interactive · Screening Lab</p>
+            <h2 className="mt-2 text-xl font-semibold tracking-tight md:text-2xl">
+              Try the calibrated risk models yourself — calculator, threshold explorer,
+              decision curves, fairness audit
+            </h2>
+          </div>
+          <span className="shrink-0 rounded-full bg-good/10 px-5 py-2.5 text-sm font-medium text-good ring-1 ring-good/40 transition-colors group-hover:bg-good/20">
+            Open the lab →
+          </span>
+        </Link>
+      </section>
 
       <Section
         id="methods"

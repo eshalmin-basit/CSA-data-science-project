@@ -252,6 +252,30 @@ more distress-driven, while substance use retains a substantial direct
 (unmediated) path — compatible with coping motives not fully captured by
 mood items.
 
+### 5.7 A calibrated screening prototype
+
+To translate the findings into a deployable form, we trained screening models
+restricted to inputs a school health professional could collect in one
+confidential intake (thirteen items: victimization, household adversity,
+housing, basic-needs support, age, grade, sex — race/ethnicity and sexual
+identity deliberately excluded). XGBoost hyperparameters were tuned with
+randomized 5-fold cross-validation on an 80% training split; probabilities
+were Platt-calibrated; all reported numbers come from the untouched 20% test
+set. Held-out AUC was 0.69 for any current substance use (prevalence 44%),
+0.69 for binge drinking, and 0.76 for lifetime illicit drug use, with
+calibration close to the diagonal (Brier 0.10–0.22). At the recommended
+sensitivity-first operating point for any current substance use (threshold
+0.32), the model catches 81% of students using substances while flagging 69%
+of students, with 52% precision against a 44% base rate. Decision-curve
+analysis shows model-guided outreach dominating both screen-everyone and
+screen-no-one strategies across the plausible threshold range. A fairness
+audit at the deployed operating point found broadly comparable subgroup AUCs;
+residual sensitivity/false-positive-rate gaps across groups are reported in
+the project dashboard rather than hidden, and group-specific threshold
+correction is discussed as future work. The logistic variant matches XGBoost
+within ~0.01 AUC, so the interpretable model with thirteen published odds
+ratios is the deployment recommendation.
+
 ## 6. Discussion
 
 ### 6.1 Interpretation
