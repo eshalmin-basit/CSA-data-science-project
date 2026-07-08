@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --background: #070a12;
+  --surface: #0d1320;
+  --surface-2: #111a2c;
+  --border: rgba(148, 163, 184, 0.14);
+  --foreground: #e2e8f0;
+  --muted: #8fa0b8;
+  --exposed: #fb7185;
+  --unexposed: #38bdf8;
+  --adversity: #fbbf24;
+  --mediation: #a78bfa;
+  --good: #34d399;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-exposed: var(--exposed);
+  --color-unexposed: var(--unexposed);
+  --color-adversity: var(--adversity);
+  --color-mediation: var(--mediation);
+  --color-good: var(--good);
+  --color-line: var(--border);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-feature-settings: "tnum";
+}
+
+.card {
+  background: linear-gradient(180deg, var(--surface-2), var(--surface));
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+}
+
+.eyebrow {
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.glow-exposed {
+  text-shadow: 0 0 32px rgba(251, 113, 133, 0.45);
+}
+
+.hero-gradient {
+  background:
+    radial-gradient(55rem 30rem at 85% -10%, rgba(251, 113, 133, 0.13), transparent 60%),
+    radial-gradient(45rem 26rem at 10% 0%, rgba(56, 189, 248, 0.12), transparent 60%),
+    radial-gradient(40rem 30rem at 50% 110%, rgba(167, 139, 250, 0.08), transparent 60%);
+}
+
+::selection {
+  background: rgba(251, 113, 133, 0.35);
+}

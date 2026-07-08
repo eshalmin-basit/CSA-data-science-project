@@ -1,0 +1,54 @@
+[
+ {
+  "score": 0,
+  "n": 7024,
+  "outcomes": {
+   "any_illicit_ever": 5.8,
+   "vape_current": 10.5,
+   "binge_drinking_current": 6.4,
+   "marijuana_current": 10.9,
+   "persistent_sad_hopeless": 27.1,
+   "attempted_suicide_12mo": 4.3,
+   "low_school_connectedness": 38.7
+  }
+ },
+ {
+  "score": 1,
+  "n": 2868,
+  "outcomes": {
+   "any_illicit_ever": 10.7,
+   "vape_current": 18.7,
+   "binge_drinking_current": 8.2,
+   "marijuana_current": 20.4,
+   "persistent_sad_hopeless": 53.5,
+   "attempted_suicide_12mo": 11.8,
+   "low_school_connectedness": 50.3
+  }
+ },
+ {
+  "score": 2,
+  "n": 1936,
+  "outcomes": {
+   "any_illicit_ever": 18.2,
+   "vape_current": 31.1,
+   "binge_drinking_current": 15.1,
+   "marijuana_current": 28.3,
+   "persistent_sad_hopeless": 65.2,
+   "attempted_suicide_12mo": 19.7,
+   "low_school_connectedness": 54.4
+  }
+ },
+ {
+  "score": 3,
+  "n": 1198,
+  "outcomes": {
+   "any_illicit_ever": 24.8,
+   "vape_current": 37.2,
+   "binge_drinking_current": 15.6,
+   "marijuana_current": 37.3,
+   "persistent_sad_hopeless": 71.4,
+   "attempted_suicide_12mo": 26.3,
+   "low_school_connectedness": 54.1
+  }
+ }
+]

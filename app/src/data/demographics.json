@@ -1,0 +1,52 @@
+[
+ {
+  "group": "Female",
+  "kind": "sex",
+  "csa_pct": 21.6
+ },
+ {
+  "group": "Male",
+  "kind": "sex",
+  "csa_pct": 8.1
+ },
+ {
+  "group": "AI/AN",
+  "kind": "race_ethnicity",
+  "csa_pct": 16.5
+ },
+ {
+  "group": "Asian",
+  "kind": "race_ethnicity",
+  "csa_pct": 9.5
+ },
+ {
+  "group": "Black",
+  "kind": "race_ethnicity",
+  "csa_pct": 12.9
+ },
+ {
+  "group": "Hispanic/Latino",
+  "kind": "race_ethnicity",
+  "csa_pct": 11.2
+ },
+ {
+  "group": "Multiple-Hispanic",
+  "kind": "race_ethnicity",
+  "csa_pct": 17.7
+ },
+ {
+  "group": "Multiple-NonHispanic",
+  "kind": "race_ethnicity",
+  "csa_pct": 17.5
+ },
+ {
+  "group": "NH/OPI",
+  "kind": "race_ethnicity",
+  "csa_pct": 17.3
+ },
+ {
+  "group": "White",
+  "kind": "race_ethnicity",
+  "csa_pct": 14.5
+ }
+]

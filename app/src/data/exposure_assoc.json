@@ -1,0 +1,191 @@
+[
+ {
+  "outcome": "vape_current",
+  "label": "Vaping (30d)",
+  "group": "substance",
+  "exposed_pct": 39.1,
+  "unexposed_pct": 13.4,
+  "prevalence_ratio": 2.93,
+  "n": 19091
+ },
+ {
+  "outcome": "alcohol_current",
+  "label": "Alcohol (30d)",
+  "group": "substance",
+  "exposed_pct": 41.8,
+  "unexposed_pct": 19.3,
+  "prevalence_ratio": 2.17,
+  "n": 19202
+ },
+ {
+  "outcome": "binge_drinking_current",
+  "label": "Binge drinking (30d)",
+  "group": "substance",
+  "exposed_pct": 21.6,
+  "unexposed_pct": 6.7,
+  "prevalence_ratio": 3.21,
+  "n": 15441
+ },
+ {
+  "outcome": "marijuana_current",
+  "label": "Marijuana (30d)",
+  "group": "substance",
+  "exposed_pct": 35.6,
+  "unexposed_pct": 14.2,
+  "prevalence_ratio": 2.51,
+  "n": 19600
+ },
+ {
+  "outcome": "cig_current",
+  "label": "Cigarettes (30d)",
+  "group": "substance",
+  "exposed_pct": 9.8,
+  "unexposed_pct": 2.5,
+  "prevalence_ratio": 3.92,
+  "n": 19739
+ },
+ {
+  "outcome": "rx_pain_misuse_ever",
+  "label": "Rx pain-med misuse (ever)",
+  "group": "substance",
+  "exposed_pct": 24.2,
+  "unexposed_pct": 8.9,
+  "prevalence_ratio": 2.73,
+  "n": 19527
+ },
+ {
+  "outcome": "inhalants_ever",
+  "label": "Inhalants (ever)",
+  "group": "substance",
+  "exposed_pct": 15.6,
+  "unexposed_pct": 3.9,
+  "prevalence_ratio": 3.97,
+  "n": 14226
+ },
+ {
+  "outcome": "ecstasy_ever",
+  "label": "Ecstasy (ever)",
+  "group": "substance",
+  "exposed_pct": 10.4,
+  "unexposed_pct": 1.5,
+  "prevalence_ratio": 7.14,
+  "n": 16495
+ },
+ {
+  "outcome": "cocaine_ever",
+  "label": "Cocaine (ever)",
+  "group": "substance",
+  "exposed_pct": 9.0,
+  "unexposed_pct": 1.4,
+  "prevalence_ratio": 6.38,
+  "n": 16847
+ },
+ {
+  "outcome": "meth_ever",
+  "label": "Meth (ever)",
+  "group": "substance",
+  "exposed_pct": 7.2,
+  "unexposed_pct": 1.0,
+  "prevalence_ratio": 7.47,
+  "n": 18981
+ },
+ {
+  "outcome": "heroin_ever",
+  "label": "Heroin (ever)",
+  "group": "substance",
+  "exposed_pct": 5.5,
+  "unexposed_pct": 0.9,
+  "prevalence_ratio": 6.32,
+  "n": 19322
+ },
+ {
+  "outcome": "injection_drug_ever",
+  "label": "Injected drugs (ever)",
+  "group": "substance",
+  "exposed_pct": 4.7,
+  "unexposed_pct": 0.6,
+  "prevalence_ratio": 7.88,
+  "n": 15097
+ },
+ {
+  "outcome": "any_illicit_ever",
+  "label": "Any illicit drug (ever)",
+  "group": "substance",
+  "exposed_pct": 24.5,
+  "unexposed_pct": 7.5,
+  "prevalence_ratio": 3.28,
+  "n": 10925
+ },
+ {
+  "outcome": "feel_close_to_school",
+  "label": "Feels close to people at school",
+  "group": "social",
+  "exposed_pct": 43.4,
+  "unexposed_pct": 57.4,
+  "prevalence_ratio": 0.76,
+  "n": 11177
+ },
+ {
+  "outcome": "parent_monitoring",
+  "label": "Parents usually know whereabouts",
+  "group": "social",
+  "exposed_pct": 72.9,
+  "unexposed_pct": 85.9,
+  "prevalence_ratio": 0.85,
+  "n": 10850
+ },
+ {
+  "outcome": "social_media_heavy",
+  "label": "Social media several times/day+",
+  "group": "social",
+  "exposed_pct": 82.0,
+  "unexposed_pct": 77.6,
+  "prevalence_ratio": 1.06,
+  "n": 15203
+ },
+ {
+  "outcome": "persistent_sad_hopeless",
+  "label": "Persistent sadness/hopelessness",
+  "group": "mental_health",
+  "exposed_pct": 72.1,
+  "unexposed_pct": 33.3,
+  "prevalence_ratio": 2.16,
+  "n": 19863
+ },
+ {
+  "outcome": "considered_suicide_12mo",
+  "label": "Considered suicide (12mo)",
+  "group": "mental_health",
+  "exposed_pct": 48.0,
+  "unexposed_pct": 14.7,
+  "prevalence_ratio": 3.27,
+  "n": 19667
+ },
+ {
+  "outcome": "suicide_plan_12mo",
+  "label": "Made suicide plan (12mo)",
+  "group": "mental_health",
+  "exposed_pct": 38.4,
+  "unexposed_pct": 11.7,
+  "prevalence_ratio": 3.29,
+  "n": 18366
+ },
+ {
+  "outcome": "attempted_suicide_12mo",
+  "label": "Attempted suicide (12mo)",
+  "group": "mental_health",
+  "exposed_pct": 28.7,
+  "unexposed_pct": 5.8,
+  "prevalence_ratio": 4.96,
+  "n": 19336
+ },
+ {
+  "outcome": "poor_mental_health_30d",
+  "label": "Poor mental health (30d)",
+  "group": "mental_health",
+  "exposed_pct": 52.7,
+  "unexposed_pct": 24.6,
+  "prevalence_ratio": 2.15,
+  "n": 15705
+ }
+]

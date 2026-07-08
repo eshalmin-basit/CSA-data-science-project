@@ -1,0 +1,466 @@
+{
+ "vape_current": [
+  {
+   "feature": "Physical dating violence",
+   "mean_abs_shap": 0.4784
+  },
+  {
+   "feature": "Household adversity (0-3)",
+   "mean_abs_shap": 0.2727
+  },
+  {
+   "feature": "Sexual-violence exposure",
+   "mean_abs_shap": 0.2157
+  },
+  {
+   "feature": "Witnessed community violence",
+   "mean_abs_shap": 0.2114
+  },
+  {
+   "feature": "Cyberbullied",
+   "mean_abs_shap": 0.1807
+  },
+  {
+   "feature": "Basic needs met (protective)",
+   "mean_abs_shap": 0.142
+  },
+  {
+   "feature": "Age",
+   "mean_abs_shap": 0.1413
+  },
+  {
+   "feature": "Grade",
+   "mean_abs_shap": 0.1216
+  },
+  {
+   "feature": "Unstable housing",
+   "mean_abs_shap": 0.1069
+  },
+  {
+   "feature": "Asian",
+   "mean_abs_shap": 0.0894
+  },
+  {
+   "feature": "Bullied at school",
+   "mean_abs_shap": 0.0686
+  },
+  {
+   "feature": "Female",
+   "mean_abs_shap": 0.0682
+  },
+  {
+   "feature": "AI/AN",
+   "mean_abs_shap": 0.0543
+  },
+  {
+   "feature": "White",
+   "mean_abs_shap": 0.0387
+  }
+ ],
+ "alcohol_current": [
+  {
+   "feature": "Physical dating violence",
+   "mean_abs_shap": 0.4064
+  },
+  {
+   "feature": "Witnessed community violence",
+   "mean_abs_shap": 0.2273
+  },
+  {
+   "feature": "Grade",
+   "mean_abs_shap": 0.2053
+  },
+  {
+   "feature": "Sexual-violence exposure",
+   "mean_abs_shap": 0.1792
+  },
+  {
+   "feature": "Age",
+   "mean_abs_shap": 0.1693
+  },
+  {
+   "feature": "Household adversity (0-3)",
+   "mean_abs_shap": 0.1455
+  },
+  {
+   "feature": "Cyberbullied",
+   "mean_abs_shap": 0.1137
+  },
+  {
+   "feature": "White",
+   "mean_abs_shap": 0.112
+  },
+  {
+   "feature": "AI/AN",
+   "mean_abs_shap": 0.058
+  },
+  {
+   "feature": "Black",
+   "mean_abs_shap": 0.0552
+  },
+  {
+   "feature": "Male",
+   "mean_abs_shap": 0.0532
+  },
+  {
+   "feature": "Basic needs met (protective)",
+   "mean_abs_shap": 0.0472
+  },
+  {
+   "feature": "Female",
+   "mean_abs_shap": 0.0463
+  },
+  {
+   "feature": "Bullied at school",
+   "mean_abs_shap": 0.0386
+  }
+ ],
+ "binge_drinking_current": [
+  {
+   "feature": "Physical dating violence",
+   "mean_abs_shap": 0.4053
+  },
+  {
+   "feature": "Sexual-violence exposure",
+   "mean_abs_shap": 0.2964
+  },
+  {
+   "feature": "Grade",
+   "mean_abs_shap": 0.2751
+  },
+  {
+   "feature": "White",
+   "mean_abs_shap": 0.2726
+  },
+  {
+   "feature": "Witnessed community violence",
+   "mean_abs_shap": 0.2706
+  },
+  {
+   "feature": "Age",
+   "mean_abs_shap": 0.266
+  },
+  {
+   "feature": "Household adversity (0-3)",
+   "mean_abs_shap": 0.2389
+  },
+  {
+   "feature": "Cyberbullied",
+   "mean_abs_shap": 0.193
+  },
+  {
+   "feature": "Black",
+   "mean_abs_shap": 0.1147
+  },
+  {
+   "feature": "Heterosexual",
+   "mean_abs_shap": 0.1061
+  },
+  {
+   "feature": "Bisexual",
+   "mean_abs_shap": 0.1043
+  },
+  {
+   "feature": "Unstable housing",
+   "mean_abs_shap": 0.0865
+  },
+  {
+   "feature": "Multiracial (non-Hispanic)",
+   "mean_abs_shap": 0.0806
+  },
+  {
+   "feature": "Basic needs met (protective)",
+   "mean_abs_shap": 0.0602
+  }
+ ],
+ "marijuana_current": [
+  {
+   "feature": "Physical dating violence",
+   "mean_abs_shap": 0.384
+  },
+  {
+   "feature": "Household adversity (0-3)",
+   "mean_abs_shap": 0.3095
+  },
+  {
+   "feature": "Witnessed community violence",
+   "mean_abs_shap": 0.2405
+  },
+  {
+   "feature": "Sexual-violence exposure",
+   "mean_abs_shap": 0.2213
+  },
+  {
+   "feature": "Grade",
+   "mean_abs_shap": 0.1927
+  },
+  {
+   "feature": "Age",
+   "mean_abs_shap": 0.1559
+  },
+  {
+   "feature": "Basic needs met (protective)",
+   "mean_abs_shap": 0.1466
+  },
+  {
+   "feature": "Cyberbullied",
+   "mean_abs_shap": 0.1347
+  },
+  {
+   "feature": "Asian",
+   "mean_abs_shap": 0.0836
+  },
+  {
+   "feature": "Heterosexual",
+   "mean_abs_shap": 0.0641
+  },
+  {
+   "feature": "White",
+   "mean_abs_shap": 0.0621
+  },
+  {
+   "feature": "Unstable housing",
+   "mean_abs_shap": 0.0519
+  },
+  {
+   "feature": "Bisexual",
+   "mean_abs_shap": 0.0373
+  },
+  {
+   "feature": "Hispanic/Latino",
+   "mean_abs_shap": 0.0368
+  }
+ ],
+ "cig_current": [
+  {
+   "feature": "Physical dating violence",
+   "mean_abs_shap": 0.4486
+  },
+  {
+   "feature": "Household adversity (0-3)",
+   "mean_abs_shap": 0.3219
+  },
+  {
+   "feature": "Sexual-violence exposure",
+   "mean_abs_shap": 0.2588
+  },
+  {
+   "feature": "Basic needs met (protective)",
+   "mean_abs_shap": 0.2542
+  },
+  {
+   "feature": "Age",
+   "mean_abs_shap": 0.2519
+  },
+  {
+   "feature": "Witnessed community violence",
+   "mean_abs_shap": 0.2382
+  },
+  {
+   "feature": "Cyberbullied",
+   "mean_abs_shap": 0.2229
+  },
+  {
+   "feature": "Male",
+   "mean_abs_shap": 0.2087
+  },
+  {
+   "feature": "Bullied at school",
+   "mean_abs_shap": 0.1629
+  },
+  {
+   "feature": "Grade",
+   "mean_abs_shap": 0.16
+  },
+  {
+   "feature": "Black",
+   "mean_abs_shap": 0.1381
+  },
+  {
+   "feature": "Asian",
+   "mean_abs_shap": 0.1261
+  },
+  {
+   "feature": "Unstable housing",
+   "mean_abs_shap": 0.122
+  },
+  {
+   "feature": "Hispanic/Latino",
+   "mean_abs_shap": 0.1001
+  }
+ ],
+ "rx_pain_misuse_ever": [
+  {
+   "feature": "Sexual-violence exposure",
+   "mean_abs_shap": 0.2282
+  },
+  {
+   "feature": "Household adversity (0-3)",
+   "mean_abs_shap": 0.2208
+  },
+  {
+   "feature": "Witnessed community violence",
+   "mean_abs_shap": 0.1906
+  },
+  {
+   "feature": "Heterosexual",
+   "mean_abs_shap": 0.1752
+  },
+  {
+   "feature": "Bullied at school",
+   "mean_abs_shap": 0.1647
+  },
+  {
+   "feature": "White",
+   "mean_abs_shap": 0.1624
+  },
+  {
+   "feature": "Cyberbullied",
+   "mean_abs_shap": 0.1312
+  },
+  {
+   "feature": "Basic needs met (protective)",
+   "mean_abs_shap": 0.1189
+  },
+  {
+   "feature": "Physical dating violence",
+   "mean_abs_shap": 0.1031
+  },
+  {
+   "feature": "Age",
+   "mean_abs_shap": 0.088
+  },
+  {
+   "feature": "Grade",
+   "mean_abs_shap": 0.0863
+  },
+  {
+   "feature": "Female",
+   "mean_abs_shap": 0.0543
+  },
+  {
+   "feature": "Unstable housing",
+   "mean_abs_shap": 0.0488
+  },
+  {
+   "feature": "Multiracial (Hispanic)",
+   "mean_abs_shap": 0.0318
+  }
+ ],
+ "any_illicit_ever": [
+  {
+   "feature": "Household adversity (0-3)",
+   "mean_abs_shap": 0.4873
+  },
+  {
+   "feature": "Witnessed community violence",
+   "mean_abs_shap": 0.2947
+  },
+  {
+   "feature": "Sexual-violence exposure",
+   "mean_abs_shap": 0.2416
+  },
+  {
+   "feature": "Male",
+   "mean_abs_shap": 0.2303
+  },
+  {
+   "feature": "Physical dating violence",
+   "mean_abs_shap": 0.1975
+  },
+  {
+   "feature": "Heterosexual",
+   "mean_abs_shap": 0.1934
+  },
+  {
+   "feature": "Cyberbullied",
+   "mean_abs_shap": 0.1382
+  },
+  {
+   "feature": "Grade",
+   "mean_abs_shap": 0.1296
+  },
+  {
+   "feature": "Age",
+   "mean_abs_shap": 0.1028
+  },
+  {
+   "feature": "Black",
+   "mean_abs_shap": 0.0911
+  },
+  {
+   "feature": "Bullied at school",
+   "mean_abs_shap": 0.0745
+  },
+  {
+   "feature": "White",
+   "mean_abs_shap": 0.0734
+  },
+  {
+   "feature": "Female",
+   "mean_abs_shap": 0.0547
+  },
+  {
+   "feature": "Basic needs met (protective)",
+   "mean_abs_shap": 0.0502
+  }
+ ],
+ "low_school_connectedness": [
+  {
+   "feature": "Household adversity (0-3)",
+   "mean_abs_shap": 0.1758
+  },
+  {
+   "feature": "Male",
+   "mean_abs_shap": 0.1479
+  },
+  {
+   "feature": "Grade",
+   "mean_abs_shap": 0.1233
+  },
+  {
+   "feature": "White",
+   "mean_abs_shap": 0.0974
+  },
+  {
+   "feature": "Bullied at school",
+   "mean_abs_shap": 0.0926
+  },
+  {
+   "feature": "Heterosexual",
+   "mean_abs_shap": 0.0869
+  },
+  {
+   "feature": "Physical dating violence",
+   "mean_abs_shap": 0.0855
+  },
+  {
+   "feature": "Cyberbullied",
+   "mean_abs_shap": 0.0704
+  },
+  {
+   "feature": "Age",
+   "mean_abs_shap": 0.0544
+  },
+  {
+   "feature": "Basic needs met (protective)",
+   "mean_abs_shap": 0.0498
+  },
+  {
+   "feature": "Sexual-violence exposure",
+   "mean_abs_shap": 0.0497
+  },
+  {
+   "feature": "Witnessed community violence",
+   "mean_abs_shap": 0.0366
+  },
+  {
+   "feature": "Hispanic/Latino",
+   "mean_abs_shap": 0.0263
+  },
+  {
+   "feature": "Black",
+   "mean_abs_shap": 0.0247
+  }
+ ]
+}

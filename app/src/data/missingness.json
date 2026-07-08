@@ -1,0 +1,257 @@
+[
+ {
+  "variable": "parent_monitoring",
+  "pct_missing": 46.0,
+  "mechanism": "questionnaire version (school-level block)"
+ },
+ {
+  "variable": "any_illicit_ever",
+  "pct_missing": 45.7,
+  "mechanism": "questionnaire version (school-level block)"
+ },
+ {
+  "variable": "difficulty_concentrating",
+  "pct_missing": 45.6,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "feel_close_to_school",
+  "pct_missing": 44.4,
+  "mechanism": "questionnaire version (school-level block)"
+ },
+ {
+  "variable": "school_connect_scale",
+  "pct_missing": 44.4,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "low_school_connectedness",
+  "pct_missing": 44.4,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "physical_dating_violence_12mo",
+  "pct_missing": 42.8,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "household_adversity_score",
+  "pct_missing": 35.2,
+  "mechanism": "questionnaire version (school-level block)"
+ },
+ {
+  "variable": "parent_substance_problem",
+  "pct_missing": 34.2,
+  "mechanism": "questionnaire version (school-level block)"
+ },
+ {
+  "variable": "parent_mental_illness",
+  "pct_missing": 33.8,
+  "mechanism": "questionnaire version (school-level block)"
+ },
+ {
+  "variable": "parent_incarcerated",
+  "pct_missing": 33.6,
+  "mechanism": "questionnaire version (school-level block)"
+ },
+ {
+  "variable": "sexual_dating_violence_12mo",
+  "pct_missing": 33.1,
+  "mechanism": "sensitive-item nonresponse + attrition"
+ },
+ {
+  "variable": "inhalants_ever",
+  "pct_missing": 29.2,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "unstable_housing",
+  "pct_missing": 27.7,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "witnessed_community_violence",
+  "pct_missing": 27.5,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "injection_drug_ever",
+  "pct_missing": 24.9,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "social_media_use",
+  "pct_missing": 24.4,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "social_media_heavy",
+  "pct_missing": 24.4,
+  "mechanism": "questionnaire version (school-level block)"
+ },
+ {
+  "variable": "binge_drinking_current",
+  "pct_missing": 23.2,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "poor_mental_health_30d",
+  "pct_missing": 21.9,
+  "mechanism": "questionnaire version (school-level block)"
+ },
+ {
+  "variable": "poor_mental_health_freq",
+  "pct_missing": 21.9,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "basic_needs_met",
+  "pct_missing": 21.7,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "sexual_violence_12mo",
+  "pct_missing": 21.6,
+  "mechanism": "sensitive-item nonresponse + attrition"
+ },
+ {
+  "variable": "ecstasy_ever",
+  "pct_missing": 17.9,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "marijuana_ever",
+  "pct_missing": 17.4,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "cocaine_ever",
+  "pct_missing": 16.2,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "forced_sex_ever",
+  "pct_missing": 13.9,
+  "mechanism": "sensitive-item nonresponse + attrition"
+ },
+ {
+  "variable": "cig_ever",
+  "pct_missing": 13.2,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "sleep_hours",
+  "pct_missing": 13.2,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "csa_exposure",
+  "pct_missing": 12.3,
+  "mechanism": "sensitive-item nonresponse + attrition"
+ },
+ {
+  "variable": "sexual_identity",
+  "pct_missing": 10.0,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "transgender",
+  "pct_missing": 9.0,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "suicide_plan_12mo",
+  "pct_missing": 8.6,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "smokeless_current",
+  "pct_missing": 5.9,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "meth_ever",
+  "pct_missing": 5.6,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "vape_current",
+  "pct_missing": 5.0,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "alcohol_current",
+  "pct_missing": 4.5,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "heroin_ever",
+  "pct_missing": 3.9,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "attempted_suicide_12mo",
+  "pct_missing": 3.8,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "rx_pain_misuse_ever",
+  "pct_missing": 2.9,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "marijuana_current",
+  "pct_missing": 2.5,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "considered_suicide_12mo",
+  "pct_missing": 2.2,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "race_ethnicity",
+  "pct_missing": 1.8,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "cig_current",
+  "pct_missing": 1.8,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "vape_ever",
+  "pct_missing": 1.5,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "grade",
+  "pct_missing": 1.2,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "persistent_sad_hopeless",
+  "pct_missing": 1.2,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "bullied_at_school_12mo",
+  "pct_missing": 1.0,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "bullied_electronic_12mo",
+  "pct_missing": 1.0,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "sex",
+  "pct_missing": 0.8,
+  "mechanism": "attrition / skip pattern"
+ },
+ {
+  "variable": "age",
+  "pct_missing": 0.5,
+  "mechanism": "attrition / skip pattern"
+ }
+]
