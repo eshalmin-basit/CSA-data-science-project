@@ -1,0 +1,162 @@
+[
+ {
+  "outcome": "vape_current",
+  "label": "Vaping (30d)",
+  "term": "csa_exposure",
+  "odds_ratio": 2.89,
+  "ci_low": 2.42,
+  "ci_high": 3.45,
+  "p_value": 2.7298519748850514e-31,
+  "n": 10152
+ },
+ {
+  "outcome": "vape_current",
+  "label": "Vaping (30d)",
+  "term": "household_adversity_score",
+  "odds_ratio": 1.62,
+  "ci_low": 1.47,
+  "ci_high": 1.79,
+  "p_value": 1.1767274527508478e-21,
+  "n": 10152
+ },
+ {
+  "outcome": "alcohol_current",
+  "label": "Alcohol (30d)",
+  "term": "csa_exposure",
+  "odds_ratio": 2.26,
+  "ci_low": 1.9,
+  "ci_high": 2.7,
+  "p_value": 6.950544370278472e-20,
+  "n": 10426
+ },
+ {
+  "outcome": "alcohol_current",
+  "label": "Alcohol (30d)",
+  "term": "household_adversity_score",
+  "odds_ratio": 1.29,
+  "ci_low": 1.2,
+  "ci_high": 1.39,
+  "p_value": 2.757221659887564e-11,
+  "n": 10426
+ },
+ {
+  "outcome": "binge_drinking_current",
+  "label": "Binge drinking (30d)",
+  "term": "csa_exposure",
+  "odds_ratio": 2.84,
+  "ci_low": 2.34,
+  "ci_high": 3.45,
+  "p_value": 5.418577584816866e-26,
+  "n": 10109
+ },
+ {
+  "outcome": "binge_drinking_current",
+  "label": "Binge drinking (30d)",
+  "term": "household_adversity_score",
+  "odds_ratio": 1.23,
+  "ci_low": 1.09,
+  "ci_high": 1.39,
+  "p_value": 0.0006978644778529846,
+  "n": 10109
+ },
+ {
+  "outcome": "marijuana_current",
+  "label": "Marijuana (30d)",
+  "term": "csa_exposure",
+  "odds_ratio": 2.31,
+  "ci_low": 1.93,
+  "ci_high": 2.78,
+  "p_value": 4.362637189493025e-19,
+  "n": 10489
+ },
+ {
+  "outcome": "marijuana_current",
+  "label": "Marijuana (30d)",
+  "term": "household_adversity_score",
+  "odds_ratio": 1.62,
+  "ci_low": 1.44,
+  "ci_high": 1.81,
+  "p_value": 1.1275306100541745e-16,
+  "n": 10489
+ },
+ {
+  "outcome": "cig_current",
+  "label": "Cigarettes (30d)",
+  "term": "csa_exposure",
+  "odds_ratio": 2.67,
+  "ci_low": 1.82,
+  "ci_high": 3.91,
+  "p_value": 4.881286017312048e-07,
+  "n": 10533
+ },
+ {
+  "outcome": "cig_current",
+  "label": "Cigarettes (30d)",
+  "term": "household_adversity_score",
+  "odds_ratio": 1.74,
+  "ci_low": 1.47,
+  "ci_high": 2.06,
+  "p_value": 1.525740801072668e-10,
+  "n": 10533
+ },
+ {
+  "outcome": "rx_pain_misuse_ever",
+  "label": "Rx pain-med misuse (ever)",
+  "term": "csa_exposure",
+  "odds_ratio": 2.19,
+  "ci_low": 1.75,
+  "ci_high": 2.73,
+  "p_value": 4.9815266572175274e-12,
+  "n": 10502
+ },
+ {
+  "outcome": "rx_pain_misuse_ever",
+  "label": "Rx pain-med misuse (ever)",
+  "term": "household_adversity_score",
+  "odds_ratio": 1.52,
+  "ci_low": 1.37,
+  "ci_high": 1.69,
+  "p_value": 3.7629517534194594e-15,
+  "n": 10502
+ },
+ {
+  "outcome": "any_illicit_ever",
+  "label": "Any illicit drug (ever)",
+  "term": "csa_exposure",
+  "odds_ratio": 3.19,
+  "ci_low": 2.5,
+  "ci_high": 4.06,
+  "p_value": 7.957327455182269e-21,
+  "n": 10006
+ },
+ {
+  "outcome": "any_illicit_ever",
+  "label": "Any illicit drug (ever)",
+  "term": "household_adversity_score",
+  "odds_ratio": 1.64,
+  "ci_low": 1.48,
+  "ci_high": 1.83,
+  "p_value": 2.2129139187553394e-20,
+  "n": 10006
+ },
+ {
+  "outcome": "low_school_connectedness",
+  "label": "Low school connectedness",
+  "term": "csa_exposure",
+  "odds_ratio": 1.42,
+  "ci_low": 1.24,
+  "ci_high": 1.62,
+  "p_value": 3.19975876703402e-07,
+  "n": 10490
+ },
+ {
+  "outcome": "low_school_connectedness",
+  "label": "Low school connectedness",
+  "term": "household_adversity_score",
+  "odds_ratio": 1.27,
+  "ci_low": 1.17,
+  "ci_high": 1.38,
+  "p_value": 1.6286951908497936e-08,
+  "n": 10490
+ }
+]

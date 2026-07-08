@@ -1,0 +1,33 @@
+outcome,label,n,prevalence,model,imbalance,roc_auc,pr_auc,recall,precision,f1
+vape_current,Vaping (30d),16700,0.1813,logistic,class_weight,0.766,0.429,0.666,0.351,0.459
+vape_current,Vaping (30d),16700,0.1813,logistic,smote,0.763,0.427,0.675,0.345,0.456
+vape_current,Vaping (30d),16700,0.1813,xgboost,class_weight,0.758,0.416,0.662,0.345,0.453
+vape_current,Vaping (30d),16700,0.1813,xgboost,smote,0.749,0.408,0.256,0.489,0.336
+alcohol_current,Alcohol (30d),16955,0.2193,logistic,class_weight,0.727,0.419,0.651,0.368,0.47
+alcohol_current,Alcohol (30d),16955,0.2193,logistic,smote,0.724,0.415,0.656,0.361,0.466
+alcohol_current,Alcohol (30d),16955,0.2193,xgboost,class_weight,0.726,0.425,0.66,0.363,0.469
+alcohol_current,Alcohol (30d),16955,0.2193,xgboost,smote,0.713,0.403,0.303,0.445,0.361
+binge_drinking_current,Binge drinking (30d),13105,0.0921,logistic,class_weight,0.773,0.266,0.69,0.198,0.308
+binge_drinking_current,Binge drinking (30d),13105,0.0921,logistic,smote,0.769,0.262,0.695,0.198,0.308
+binge_drinking_current,Binge drinking (30d),13105,0.0921,xgboost,class_weight,0.747,0.246,0.645,0.193,0.297
+binge_drinking_current,Binge drinking (30d),13105,0.0921,xgboost,smote,0.738,0.215,0.133,0.272,0.178
+marijuana_current,Marijuana (30d),17216,0.179,logistic,class_weight,0.758,0.408,0.662,0.335,0.445
+marijuana_current,Marijuana (30d),17216,0.179,logistic,smote,0.755,0.405,0.673,0.328,0.441
+marijuana_current,Marijuana (30d),17216,0.179,xgboost,class_weight,0.75,0.398,0.661,0.33,0.441
+marijuana_current,Marijuana (30d),17216,0.179,xgboost,smote,0.737,0.383,0.22,0.471,0.3
+cig_current,Cigarettes (30d),17381,0.0408,logistic,class_weight,0.789,0.175,0.703,0.104,0.18
+cig_current,Cigarettes (30d),17381,0.0408,logistic,smote,0.785,0.168,0.694,0.098,0.171
+cig_current,Cigarettes (30d),17381,0.0408,xgboost,class_weight,0.754,0.152,0.566,0.1,0.17
+cig_current,Cigarettes (30d),17381,0.0408,xgboost,smote,0.74,0.119,0.037,0.334,0.063
+rx_pain_misuse_ever,Rx pain-med misuse (ever),17133,0.1187,logistic,class_weight,0.715,0.285,0.586,0.224,0.324
+rx_pain_misuse_ever,Rx pain-med misuse (ever),17133,0.1187,logistic,smote,0.71,0.281,0.586,0.218,0.318
+rx_pain_misuse_ever,Rx pain-med misuse (ever),17133,0.1187,xgboost,class_weight,0.701,0.283,0.558,0.224,0.32
+rx_pain_misuse_ever,Rx pain-med misuse (ever),17133,0.1187,xgboost,smote,0.667,0.263,0.059,0.514,0.105
+any_illicit_ever,Any illicit drug (ever),10838,0.1135,logistic,class_weight,0.76,0.333,0.66,0.241,0.353
+any_illicit_ever,Any illicit drug (ever),10838,0.1135,logistic,smote,0.756,0.328,0.662,0.237,0.349
+any_illicit_ever,Any illicit drug (ever),10838,0.1135,xgboost,class_weight,0.739,0.307,0.617,0.24,0.346
+any_illicit_ever,Any illicit drug (ever),10838,0.1135,xgboost,smote,0.729,0.293,0.108,0.445,0.173
+low_school_connectedness,Low school connectedness,11018,0.4622,logistic,class_weight,0.62,0.565,0.542,0.556,0.549
+low_school_connectedness,Low school connectedness,11018,0.4622,logistic,smote,0.619,0.565,0.543,0.555,0.549
+low_school_connectedness,Low school connectedness,11018,0.4622,xgboost,class_weight,0.606,0.553,0.541,0.542,0.542
+low_school_connectedness,Low school connectedness,11018,0.4622,xgboost,smote,0.608,0.557,0.481,0.558,0.516
