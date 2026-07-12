@@ -397,7 +397,55 @@ With TP/FP/TN/FN the confusion-matrix cells at threshold t:
   quality; calibration curves plot observed frequency against predicted
   probability in quantile bins.
 
-### 4.3 Predictive modeling protocol
+### 4.3 Model choice and rationale
+
+Each statistical task in this study has a different job, and each model was
+chosen for that job rather than for novelty:
+
+- **Survey-weighted logistic regression with cluster-robust errors**
+  (inference, §4.1). The estimand is a population association — "how much
+  more likely is the outcome among exposed students, nationally?" — which
+  requires design weights and clustering-aware uncertainty, not predictive
+  machinery. Odds ratios are the field-standard effect measure, directly
+  comparable to the meta-analytic literature in Section 2.
+- **L2-regularized logistic regression** (prediction baseline). The
+  strongest simple hypothesis: risk is an additive combination of
+  exposures. It is fast, stable, produces probabilities that are nearly
+  calibrated out of the box, and its coefficients are auditable as odds
+  ratios — properties a screening deployment values more than raw accuracy.
+- **Gradient-boosted trees (XGBoost; Chen & Guestrin, 2016)** (prediction
+  challenger). The consistent state of the art for tabular data; captures
+  non-linearities and interactions (e.g., exposure × unstable housing)
+  that a linear model cannot, and handles missing values natively, which
+  matters given the structural missingness of Section 3.5. Deep learning
+  was not considered: with ~6,000–17,000 rows of low-dimensional tabular
+  features it offers no expected accuracy advantage while sacrificing the
+  interpretability a clinical audience requires.
+- **Why both, always.** The logistic-versus-XGBoost gap is itself a
+  diagnostic. If the ensemble wins, meaningful interaction structure
+  exists; if the linear model matches it — as it did here (Table 6) — the
+  signal is predominantly additive, and the transparent model earns the
+  deployment recommendation on equal performance. Reporting only the more
+  complex model would have obscured that finding.
+- **Platt-calibrated XGBoost** (screening, §4.7). A screening threshold is
+  a policy decision expressed in probability units; that requires "20%
+  risk" to mean 20% observed frequency. Raw boosted-tree scores are not
+  calibrated, so probabilities are rescaled by Platt's method (Platt,
+  1999) inside the training folds and verified on the test set (Brier
+  scores; Figure 4b).
+- **TreeSHAP (Lundberg & Lee, 2017)** (interpretation, §4.5). Chosen over
+  permutation importance because it yields exact, per-student, signed
+  attributions under the tree structure — enabling both the global ranking
+  in Section 5.6 and the fairness-relevant check that demographic features
+  do not dominate.
+- **Probit GLMs within the Imai–Keele–Tingley framework** (mediation,
+  §4.6). Mediation with a binary mediator and binary outcome requires
+  effect decomposition on the potential-outcomes scale, not the
+  product-of-coefficients shortcut, which is biased in non-linear models;
+  the quasi-Bayesian algorithm (Imai et al., 2010) provides valid
+  uncertainty for the ACME/ADE quantities of interest.
+
+### 4.3.1 Predictive modeling protocol
 
 For each of eight outcomes we fit an L2-regularized logistic regression and
 gradient-boosted trees (XGBoost; Chen & Guestrin, 2016). Features comprise
