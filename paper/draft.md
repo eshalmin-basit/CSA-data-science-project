@@ -61,6 +61,55 @@ mediation; risk screening; calibration; YRBS
 
 ---
 
+## Plain-Language Summary
+
+This study asks a simple question: when teenagers who have experienced
+sexual violence drink, vape, use drugs, or pull away from the people around
+them, is that because they are "risk-taking" people — or because they are
+trying to cope with something unbearable? We tested five predictions in a
+survey of 20,103 US high school students, each designed so that the two
+explanations would give different answers.
+
+- **Breadth (H1a).** If trauma drives coping, affected students should use
+  *more of everything*, not just one or two "signature" substances. They
+  did: every one of twelve substance outcomes was elevated.
+- **Severity gradient (H1b).** This is the prediction that best separates
+  the two explanations. A "risky personality" would raise all risky
+  behaviors roughly equally. Coping that *escalates* predicts the biggest
+  relative gaps for the rarest, most dangerous substances — the ones almost
+  nobody touches without serious inner pressure. That is what we found:
+  exposed students were about 2× more likely to drink alcohol, but 6–8×
+  more likely to have used heroin, methamphetamine, or injection drugs.
+- **Pathway (H2).** If these behaviors are coping with distress, then
+  measured sadness should statistically *carry* part of the link — trauma
+  leads to sadness, and sadness leads to substance use or withdrawal. It
+  does: roughly a fifth of each substance association, and nearly half of
+  the social-withdrawal association, runs through persistent sadness. The
+  difference makes sense: withdrawing *is* an expression of sadness, while
+  substances also do jobs (numbing, control, sleep) that a sadness question
+  cannot capture.
+- **Dose–response (H3).** Each *additional* hardship at home — a parent
+  with a substance problem, a parent with mental illness, a parent in jail
+  — should push every outcome up step by step, with no dips. It did, on
+  every outcome we examined.
+- **Predictability (H4).** If trauma burden is the real driver, a model
+  told only *what happened to a student* — never how they behave, never
+  their race or identity — should still identify most students at risk. It
+  identified four out of five, and the model's own explanations rank the
+  trauma variables above every demographic one.
+
+All five predictions held. The picture that emerges is not one of reckless
+teenagers, but of young people managing pain with the tools available to
+them. Because this is a one-time anonymous survey, we can show these
+patterns travel together — we cannot prove cause and effect. But the
+practical message stands either way: asking a handful of questions about
+what a student has been through — questions schools can already ask — finds
+most of the students who need support, *before* the behavior becomes the
+problem, and points to mental-health care rather than punishment as the
+response.
+
+---
+
 ## 1. Introduction
 
 Adolescents who have experienced sexual violence carry an elevated burden of
