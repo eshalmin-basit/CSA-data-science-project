@@ -4,10 +4,28 @@
   "n": 6409,
   "n_test": 1282,
   "prevalence": 0.4369,
+  "xgb_best_params": {
+   "colsample_bytree": 0.7,
+   "learning_rate": 0.0105,
+   "max_depth": 2,
+   "min_child_weight": 1,
+   "n_estimators": 621,
+   "reg_lambda": 0.1067,
+   "subsample": 0.9
+  },
+  "xgb_cv_auc": 0.7006,
   "models": {
    "xgboost_calibrated": {
     "auc": 0.6945,
+    "auc_ci": [
+     0.6635,
+     0.7223
+    ],
     "pr_auc": 0.6358,
+    "pr_auc_ci": [
+     0.5962,
+     0.6792
+    ],
     "brier": 0.2176,
     "roc_curve": [
      {
@@ -1692,7 +1710,15 @@
    },
    "logistic": {
     "auc": 0.6973,
+    "auc_ci": [
+     0.6663,
+     0.725
+    ],
     "pr_auc": 0.6406,
+    "pr_auc_ci": [
+     0.6005,
+     0.6849
+    ],
     "brier": 0.2168,
     "roc_curve": [
      {
@@ -3522,10 +3548,28 @@
   "n": 6039,
   "n_test": 1208,
   "prevalence": 0.126,
+  "xgb_best_params": {
+   "colsample_bytree": 0.8,
+   "learning_rate": 0.0172,
+   "max_depth": 2,
+   "min_child_weight": 1,
+   "n_estimators": 609,
+   "reg_lambda": 1.6723,
+   "subsample": 0.7
+  },
+  "xgb_cv_auc": 0.7087,
   "models": {
    "xgboost_calibrated": {
     "auc": 0.6932,
+    "auc_ci": [
+     0.6473,
+     0.7369
+    ],
     "pr_auc": 0.2866,
+    "pr_auc_ci": [
+     0.2255,
+     0.3578
+    ],
     "brier": 0.1029,
     "roc_curve": [
      {
@@ -5210,7 +5254,15 @@
    },
    "logistic": {
     "auc": 0.6905,
+    "auc_ci": [
+     0.6479,
+     0.7339
+    ],
     "pr_auc": 0.2676,
+    "pr_auc_ci": [
+     0.2102,
+     0.3378
+    ],
     "brier": 0.1032,
     "roc_curve": [
      {
@@ -7020,10 +7072,28 @@
   "n": 6139,
   "n_test": 1228,
   "prevalence": 0.1393,
+  "xgb_best_params": {
+   "colsample_bytree": 0.7,
+   "learning_rate": 0.0105,
+   "max_depth": 2,
+   "min_child_weight": 1,
+   "n_estimators": 621,
+   "reg_lambda": 0.1067,
+   "subsample": 0.9
+  },
+  "xgb_cv_auc": 0.748,
   "models": {
    "xgboost_calibrated": {
     "auc": 0.7587,
+    "auc_ci": [
+     0.7181,
+     0.7971
+    ],
     "pr_auc": 0.4359,
+    "pr_auc_ci": [
+     0.3613,
+     0.5132
+    ],
     "brier": 0.1029,
     "roc_curve": [
      {
@@ -8708,7 +8778,15 @@
    },
    "logistic": {
     "auc": 0.761,
+    "auc_ci": [
+     0.7214,
+     0.7989
+    ],
     "pr_auc": 0.4327,
+    "pr_auc_ci": [
+     0.3582,
+     0.5091
+    ],
     "brier": 0.1014,
     "roc_curve": [
      {

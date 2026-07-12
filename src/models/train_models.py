@@ -61,7 +61,9 @@ def cv_eval(model_factory, X, y, smote=False):
         m["recall"].append(recall_score(yte, yhat))
         m["precision"].append(precision_score(yte, yhat, zero_division=0))
         m["f1"].append(f1_score(yte, yhat))
-    return {k: round(float(np.mean(v)), 3) for k, v in m.items()}
+    out = {k: round(float(np.mean(v)), 3) for k, v in m.items()}
+    out.update({f"{k}_sd": round(float(np.std(v)), 3) for k, v in m.items()})
+    return out
 
 
 def lr_factory(ytr, smote):

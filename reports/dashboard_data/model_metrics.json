@@ -10,7 +10,12 @@
   "pr_auc": 0.429,
   "recall": 0.666,
   "precision": 0.351,
-  "f1": 0.459
+  "f1": 0.459,
+  "roc_auc_sd": 0.01,
+  "pr_auc_sd": 0.011,
+  "recall_sd": 0.02,
+  "precision_sd": 0.008,
+  "f1_sd": 0.009
  },
  {
   "outcome": "vape_current",
@@ -23,7 +28,12 @@
   "pr_auc": 0.427,
   "recall": 0.675,
   "precision": 0.345,
-  "f1": 0.456
+  "f1": 0.456,
+  "roc_auc_sd": 0.009,
+  "pr_auc_sd": 0.011,
+  "recall_sd": 0.018,
+  "precision_sd": 0.008,
+  "f1_sd": 0.008
  },
  {
   "outcome": "vape_current",
@@ -36,7 +46,12 @@
   "pr_auc": 0.416,
   "recall": 0.662,
   "precision": 0.345,
-  "f1": 0.453
+  "f1": 0.453,
+  "roc_auc_sd": 0.006,
+  "pr_auc_sd": 0.012,
+  "recall_sd": 0.013,
+  "precision_sd": 0.006,
+  "f1_sd": 0.006
  },
  {
   "outcome": "vape_current",
@@ -49,7 +64,12 @@
   "pr_auc": 0.408,
   "recall": 0.256,
   "precision": 0.489,
-  "f1": 0.336
+  "f1": 0.336,
+  "roc_auc_sd": 0.007,
+  "pr_auc_sd": 0.016,
+  "recall_sd": 0.019,
+  "precision_sd": 0.027,
+  "f1_sd": 0.022
  },
  {
   "outcome": "alcohol_current",
@@ -62,7 +82,12 @@
   "pr_auc": 0.419,
   "recall": 0.651,
   "precision": 0.368,
-  "f1": 0.47
+  "f1": 0.47,
+  "roc_auc_sd": 0.005,
+  "pr_auc_sd": 0.006,
+  "recall_sd": 0.018,
+  "precision_sd": 0.002,
+  "f1_sd": 0.004
  },
  {
   "outcome": "alcohol_current",
@@ -75,7 +100,12 @@
   "pr_auc": 0.415,
   "recall": 0.656,
   "precision": 0.361,
-  "f1": 0.466
+  "f1": 0.466,
+  "roc_auc_sd": 0.005,
+  "pr_auc_sd": 0.007,
+  "recall_sd": 0.019,
+  "precision_sd": 0.004,
+  "f1_sd": 0.007
  },
  {
   "outcome": "alcohol_current",
@@ -88,7 +118,12 @@
   "pr_auc": 0.425,
   "recall": 0.66,
   "precision": 0.363,
-  "f1": 0.469
+  "f1": 0.469,
+  "roc_auc_sd": 0.004,
+  "pr_auc_sd": 0.007,
+  "recall_sd": 0.012,
+  "precision_sd": 0.004,
+  "f1_sd": 0.003
  },
  {
   "outcome": "alcohol_current",
@@ -101,7 +136,12 @@
   "pr_auc": 0.403,
   "recall": 0.303,
   "precision": 0.445,
-  "f1": 0.361
+  "f1": 0.361,
+  "roc_auc_sd": 0.004,
+  "pr_auc_sd": 0.011,
+  "recall_sd": 0.012,
+  "precision_sd": 0.014,
+  "f1_sd": 0.013
  },
  {
   "outcome": "binge_drinking_current",
@@ -114,7 +154,12 @@
   "pr_auc": 0.266,
   "recall": 0.69,
   "precision": 0.198,
-  "f1": 0.308
+  "f1": 0.308,
+  "roc_auc_sd": 0.014,
+  "pr_auc_sd": 0.026,
+  "recall_sd": 0.035,
+  "precision_sd": 0.008,
+  "f1_sd": 0.012
  },
  {
   "outcome": "binge_drinking_current",
@@ -127,7 +172,12 @@
   "pr_auc": 0.262,
   "recall": 0.695,
   "precision": 0.198,
-  "f1": 0.308
+  "f1": 0.308,
+  "roc_auc_sd": 0.019,
+  "pr_auc_sd": 0.027,
+  "recall_sd": 0.035,
+  "precision_sd": 0.011,
+  "f1_sd": 0.016
  },
  {
   "outcome": "binge_drinking_current",
@@ -140,7 +190,12 @@
   "pr_auc": 0.246,
   "recall": 0.645,
   "precision": 0.193,
-  "f1": 0.297
+  "f1": 0.297,
+  "roc_auc_sd": 0.02,
+  "pr_auc_sd": 0.021,
+  "recall_sd": 0.039,
+  "precision_sd": 0.008,
+  "f1_sd": 0.013
  },
  {
   "outcome": "binge_drinking_current",
@@ -153,7 +208,12 @@
   "pr_auc": 0.215,
   "recall": 0.133,
   "precision": 0.272,
-  "f1": 0.178
+  "f1": 0.178,
+  "roc_auc_sd": 0.022,
+  "pr_auc_sd": 0.023,
+  "recall_sd": 0.012,
+  "precision_sd": 0.046,
+  "f1_sd": 0.014
  },
  {
   "outcome": "marijuana_current",
@@ -166,7 +226,12 @@
   "pr_auc": 0.408,
   "recall": 0.662,
   "precision": 0.335,
-  "f1": 0.445
+  "f1": 0.445,
+  "roc_auc_sd": 0.006,
+  "pr_auc_sd": 0.011,
+  "recall_sd": 0.015,
+  "precision_sd": 0.003,
+  "f1_sd": 0.005
  },
  {
   "outcome": "marijuana_current",
@@ -179,7 +244,12 @@
   "pr_auc": 0.405,
   "recall": 0.673,
   "precision": 0.328,
-  "f1": 0.441
+  "f1": 0.441,
+  "roc_auc_sd": 0.007,
+  "pr_auc_sd": 0.011,
+  "recall_sd": 0.016,
+  "precision_sd": 0.006,
+  "f1_sd": 0.005
  },
  {
   "outcome": "marijuana_current",
@@ -192,7 +262,12 @@
   "pr_auc": 0.398,
   "recall": 0.661,
   "precision": 0.33,
-  "f1": 0.441
+  "f1": 0.441,
+  "roc_auc_sd": 0.01,
+  "pr_auc_sd": 0.011,
+  "recall_sd": 0.023,
+  "precision_sd": 0.006,
+  "f1_sd": 0.009
  },
  {
   "outcome": "marijuana_current",
@@ -205,7 +280,12 @@
   "pr_auc": 0.383,
   "recall": 0.22,
   "precision": 0.471,
-  "f1": 0.3
+  "f1": 0.3,
+  "roc_auc_sd": 0.009,
+  "pr_auc_sd": 0.013,
+  "recall_sd": 0.015,
+  "precision_sd": 0.021,
+  "f1_sd": 0.016
  },
  {
   "outcome": "cig_current",
@@ -218,7 +298,12 @@
   "pr_auc": 0.175,
   "recall": 0.703,
   "precision": 0.104,
-  "f1": 0.18
+  "f1": 0.18,
+  "roc_auc_sd": 0.019,
+  "pr_auc_sd": 0.03,
+  "recall_sd": 0.034,
+  "precision_sd": 0.003,
+  "f1_sd": 0.006
  },
  {
   "outcome": "cig_current",
@@ -231,7 +316,12 @@
   "pr_auc": 0.168,
   "recall": 0.694,
   "precision": 0.098,
-  "f1": 0.171
+  "f1": 0.171,
+  "roc_auc_sd": 0.016,
+  "pr_auc_sd": 0.028,
+  "recall_sd": 0.018,
+  "precision_sd": 0.001,
+  "f1_sd": 0.002
  },
  {
   "outcome": "cig_current",
@@ -244,7 +334,12 @@
   "pr_auc": 0.152,
   "recall": 0.566,
   "precision": 0.1,
-  "f1": 0.17
+  "f1": 0.17,
+  "roc_auc_sd": 0.01,
+  "pr_auc_sd": 0.021,
+  "recall_sd": 0.04,
+  "precision_sd": 0.004,
+  "f1_sd": 0.007
  },
  {
   "outcome": "cig_current",
@@ -257,7 +352,12 @@
   "pr_auc": 0.119,
   "recall": 0.037,
   "precision": 0.334,
-  "f1": 0.063
+  "f1": 0.063,
+  "roc_auc_sd": 0.02,
+  "pr_auc_sd": 0.012,
+  "recall_sd": 0.008,
+  "precision_sd": 0.157,
+  "f1_sd": 0.009
  },
  {
   "outcome": "rx_pain_misuse_ever",
@@ -270,7 +370,12 @@
   "pr_auc": 0.285,
   "recall": 0.586,
   "precision": 0.224,
-  "f1": 0.324
+  "f1": 0.324,
+  "roc_auc_sd": 0.015,
+  "pr_auc_sd": 0.017,
+  "recall_sd": 0.029,
+  "precision_sd": 0.01,
+  "f1_sd": 0.014
  },
  {
   "outcome": "rx_pain_misuse_ever",
@@ -283,7 +388,12 @@
   "pr_auc": 0.281,
   "recall": 0.586,
   "precision": 0.218,
-  "f1": 0.318
+  "f1": 0.318,
+  "roc_auc_sd": 0.015,
+  "pr_auc_sd": 0.018,
+  "recall_sd": 0.034,
+  "precision_sd": 0.012,
+  "f1_sd": 0.017
  },
  {
   "outcome": "rx_pain_misuse_ever",
@@ -296,7 +406,12 @@
   "pr_auc": 0.283,
   "recall": 0.558,
   "precision": 0.224,
-  "f1": 0.32
+  "f1": 0.32,
+  "roc_auc_sd": 0.012,
+  "pr_auc_sd": 0.019,
+  "recall_sd": 0.02,
+  "precision_sd": 0.006,
+  "f1_sd": 0.008
  },
  {
   "outcome": "rx_pain_misuse_ever",
@@ -309,7 +424,12 @@
   "pr_auc": 0.263,
   "recall": 0.059,
   "precision": 0.514,
-  "f1": 0.105
+  "f1": 0.105,
+  "roc_auc_sd": 0.009,
+  "pr_auc_sd": 0.016,
+  "recall_sd": 0.01,
+  "precision_sd": 0.09,
+  "f1_sd": 0.017
  },
  {
   "outcome": "any_illicit_ever",
@@ -322,7 +442,12 @@
   "pr_auc": 0.333,
   "recall": 0.66,
   "precision": 0.241,
-  "f1": 0.353
+  "f1": 0.353,
+  "roc_auc_sd": 0.01,
+  "pr_auc_sd": 0.009,
+  "recall_sd": 0.028,
+  "precision_sd": 0.009,
+  "f1_sd": 0.012
  },
  {
   "outcome": "any_illicit_ever",
@@ -335,7 +460,12 @@
   "pr_auc": 0.328,
   "recall": 0.662,
   "precision": 0.237,
-  "f1": 0.349
+  "f1": 0.349,
+  "roc_auc_sd": 0.009,
+  "pr_auc_sd": 0.011,
+  "recall_sd": 0.022,
+  "precision_sd": 0.007,
+  "f1_sd": 0.009
  },
  {
   "outcome": "any_illicit_ever",
@@ -348,7 +478,12 @@
   "pr_auc": 0.307,
   "recall": 0.617,
   "precision": 0.24,
-  "f1": 0.346
+  "f1": 0.346,
+  "roc_auc_sd": 0.009,
+  "pr_auc_sd": 0.017,
+  "recall_sd": 0.018,
+  "precision_sd": 0.006,
+  "f1_sd": 0.006
  },
  {
   "outcome": "any_illicit_ever",
@@ -361,7 +496,12 @@
   "pr_auc": 0.293,
   "recall": 0.108,
   "precision": 0.445,
-  "f1": 0.173
+  "f1": 0.173,
+  "roc_auc_sd": 0.008,
+  "pr_auc_sd": 0.018,
+  "recall_sd": 0.008,
+  "precision_sd": 0.066,
+  "f1_sd": 0.012
  },
  {
   "outcome": "low_school_connectedness",
@@ -374,7 +514,12 @@
   "pr_auc": 0.565,
   "recall": 0.542,
   "precision": 0.556,
-  "f1": 0.549
+  "f1": 0.549,
+  "roc_auc_sd": 0.018,
+  "pr_auc_sd": 0.01,
+  "recall_sd": 0.014,
+  "precision_sd": 0.021,
+  "f1_sd": 0.017
  },
  {
   "outcome": "low_school_connectedness",
@@ -387,7 +532,12 @@
   "pr_auc": 0.565,
   "recall": 0.543,
   "precision": 0.555,
-  "f1": 0.549
+  "f1": 0.549,
+  "roc_auc_sd": 0.018,
+  "pr_auc_sd": 0.01,
+  "recall_sd": 0.015,
+  "precision_sd": 0.02,
+  "f1_sd": 0.016
  },
  {
   "outcome": "low_school_connectedness",
@@ -400,7 +550,12 @@
   "pr_auc": 0.553,
   "recall": 0.541,
   "precision": 0.542,
-  "f1": 0.542
+  "f1": 0.542,
+  "roc_auc_sd": 0.015,
+  "pr_auc_sd": 0.015,
+  "recall_sd": 0.009,
+  "precision_sd": 0.018,
+  "f1_sd": 0.011
  },
  {
   "outcome": "low_school_connectedness",
@@ -413,6 +568,11 @@
   "pr_auc": 0.557,
   "recall": 0.481,
   "precision": 0.558,
-  "f1": 0.516
+  "f1": 0.516,
+  "roc_auc_sd": 0.015,
+  "pr_auc_sd": 0.017,
+  "recall_sd": 0.011,
+  "precision_sd": 0.017,
+  "f1_sd": 0.011
  }
 ]

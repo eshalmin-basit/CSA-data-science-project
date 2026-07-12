@@ -215,7 +215,23 @@ def run_target(d: pd.DataFrame, target: str):
     p_lr = lr.predict_proba(X_te)[:, 1]
 
     result = {"label": TARGETS[target], "n": len(dd), "n_test": len(X_te),
-              "prevalence": round(float(y.mean()), 4), "models": {}}
+              "prevalence": round(float(y.mean()), 4),
+              "xgb_best_params": {k: (round(v, 4) if isinstance(v, float) else v)
+                                  for k, v in search.best_params_.items()},
+              "xgb_cv_auc": round(float(search.best_score_), 4),
+              "models": {}}
+
+    def bootstrap_ci(metric_fn, y_true, p_pred, n_boot=1000):
+        rng = np.random.default_rng(RNG)
+        stats = []
+        idx_all = np.arange(len(y_true))
+        for _ in range(n_boot):
+            idx = rng.choice(idx_all, size=len(idx_all), replace=True)
+            if y_true[idx].sum() in (0, len(idx)):
+                continue
+            stats.append(metric_fn(y_true[idx], p_pred[idx]))
+        lo, hi = np.percentile(stats, [2.5, 97.5])
+        return [round(float(lo), 4), round(float(hi), 4)]
 
     for name, p in [("xgboost_calibrated", p_xgb), ("logistic", p_lr)]:
         fpr, tpr, _ = roc_curve(y_te, p)
@@ -231,7 +247,9 @@ def run_target(d: pd.DataFrame, target: str):
             ) if cands else None
         result["models"][name] = {
             "auc": round(float(roc_auc_score(y_te, p)), 4),
+            "auc_ci": bootstrap_ci(roc_auc_score, y_te, p),
             "pr_auc": round(float(average_precision_score(y_te, p)), 4),
+            "pr_auc_ci": bootstrap_ci(average_precision_score, y_te, p),
             "brier": round(float(brier_score_loss(y_te, p)), 4),
             "roc_curve": curve_points(fpr, tpr),
             "pr_curve": curve_points(rec[::-1], prec[::-1]),
