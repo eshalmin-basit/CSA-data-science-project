@@ -302,6 +302,13 @@ Multiple imputation is deliberately not applied to block-missing variables:
 imputing 44% of a variable whose absence is a school-level design artifact
 would manufacture within-school variance without information gain.
 
+![Figure 5](../reports/figures/missingness_block_corr.png)
+
+***Figure 5.** Correlation of item-missingness indicators within the
+new-to-2023 item block. Near-unity within-block correlations identify
+school-level questionnaire-version missingness rather than individual
+nonresponse.*
+
 ### 3.6 Ethics
 
 All data are de-identified public-use records; secondary analysis requires
@@ -478,7 +485,13 @@ ratio (PR).
 | Considered suicide (12mo) | 48.0 | 14.7 | 3.27 |
 | Attempted suicide (12mo) | 28.7 | 5.8 | 4.96 |
 
-Every substance outcome is elevated (H1a), and the PR ordering tracks
+![Figure 1](../reports/figures/substance_by_exposure.png)
+
+***Figure 1.** Weighted prevalence of substance-use outcomes among students
+reporting sexual-violence victimization versus unexposed students, 2023
+National YRBS.*
+
+Every substance outcome is elevated (H1a; Figure 1), and the PR ordering tracks
 severity almost perfectly — common/social substances 2.2–2.9, cigarettes
 and inhalants ≈ 4, and the rarest, most dangerous substances 6.3–7.9
 (H1b). Both connection measures fall below parity, the withdrawal
@@ -496,9 +509,14 @@ signature. Among exposed students, 72.1% report persistent sadness and
 | 2 | 1,936 | 18.2 | 31.1 | 15.1 | 65.2 | 19.7 |
 | 3 | 1,198 | 24.8 | 37.2 | 15.6 | 71.4 | 26.3 |
 
-Strict monotonicity holds for every outcome examined — the ACE gradient
-(Felitti et al., 1998; Dube et al., 2003) reproduced in the 2023 adolescent
-sample. H3 supported.
+![Figure 2](../reports/figures/dose_response_household_adversity.png)
+
+***Figure 2.** Weighted prevalence of selected outcomes across the household
+adversity score (0–3). Every examined outcome rises monotonically.*
+
+Strict monotonicity holds for every outcome examined (Figure 2) — the ACE
+gradient (Felitti et al., 1998; Dube et al., 2003) reproduced in the 2023
+adolescent sample. H3 supported.
 
 ### 5.4 Adjusted associations and confounding robustness (H1a)
 
@@ -568,8 +586,17 @@ Across all eight outcomes, mean |SHAP| rankings place the
 victimization/adversity block above every demographic feature: physical
 dating violence, household adversity, sexual-violence exposure, and
 witnessed community violence occupy the top positions, with basic-needs
-support acting protectively. The models predict from *what happened to the
-student*, not from who the student demographically is — completing H4.
+support acting protectively (Figure 3). The models predict from *what
+happened to the student*, not from who the student demographically is —
+completing H4.
+
+![Figure 3](../reports/figures/shap_summary_vape_current.png)
+
+***Figure 3.** SHAP beeswarm for the current-vaping model (class-weighted
+XGBoost, 3,000-student sample). Each point is one student; horizontal
+position is the feature's contribution to that student's predicted risk.
+Victimization and adversity features dominate; corresponding plots for the
+other seven outcomes are in the repository.*
 
 ### 5.7 Mediation (H2)
 
@@ -608,7 +635,14 @@ Selected XGBoost hyperparameters: max_depth 2, learning rate 0.010–0.017,
 | Any illicit ever (13.9%) | 6,139 | XGB-cal | 0.759 (0.718–0.797) | 0.436 (0.361–0.513) | 0.103 |
 | | | Logistic | 0.761 (0.721–0.799) | 0.433 (0.358–0.509) | 0.101 |
 
-Calibration curves track the diagonal (quantile bins), making the
+![Figure 4](../reports/figures/screening_performance_panel.png)
+
+***Figure 4.** Screening prototype, held-out test set: (a) ROC curves;
+(b) calibration in quantile bins against the identity line; (c) decision
+curve for any current substance use against screen-everyone and
+screen-no-one strategies.*
+
+Calibration curves track the diagonal (Figure 4b), making the
 probabilities decision-grade. Operating points for any-current-substance:
 at threshold 0.24, sensitivity 90.5% with 48.2% precision (82% flagged); at
 the recommended threshold 0.32, sensitivity 81.3% with 51.7% precision
