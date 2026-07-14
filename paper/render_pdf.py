@@ -3,12 +3,16 @@
 Pipeline: python-markdown (tables ext) -> academic CSS -> headless Chrome
 --print-to-pdf. Images are inlined as base64 so the HTML is self-contained.
 
-Usage: python paper/render_pdf.py
-Output: paper/CSA_YRBS_2023_manuscript.pdf
+Usage:
+  python paper/render_pdf.py               -> paper/CSA_YRBS_2023_manuscript.pdf
+  python paper/render_pdf.py --anonymize   -> paper/submission/manuscript_anonymized.pdf
+     (strips the author block and blinds author-identifying URLs, for
+      double-anonymized journal review)
 """
 import base64
 import re
 import subprocess
+import sys
 import tempfile
 from pathlib import Path
 
@@ -61,8 +65,23 @@ def inline_images(html: str) -> str:
     return re.sub(r'src="([^"]+\.png)"', repl, html)
 
 
+def anonymize(md: str) -> str:
+    # remove author/affiliation/correspondence block
+    md = re.sub(r"\*\*Eshal Minhaj\*\*¹\n\n¹[^\n]+\n\n", "", md)
+    md = re.sub(r"\*\*Correspondence:\*\*.*?ORCID: \[ORCID iD\]\.\n\n", "", md, flags=re.S)
+    # blind author-identifying URLs
+    md = md.replace("github.com/eshalmin-basit/CSA-data-science-project",
+                    "[repository URL blinded for review]")
+    md = md.replace("eshalmin-basit.github.io/CSA-data-science-project",
+                    "[dashboard URL blinded for review]")
+    return md
+
+
 def main():
+    anon = "--anonymize" in sys.argv
     md = (HERE / "draft.md").read_text(encoding="utf-8")
+    if anon:
+        md = anonymize(md)
     body = markdown.markdown(md, extensions=["tables", "smarty"])
     # figure captions: paragraphs starting with <em><strong>Figure
     body = re.sub(
@@ -74,7 +93,11 @@ def main():
     with tempfile.TemporaryDirectory() as td:
         src = Path(td) / "paper.html"
         src.write_text(html, encoding="utf-8")
-        out = HERE / "CSA_YRBS_2023_manuscript.pdf"
+        if anon:
+            (HERE / "submission").mkdir(exist_ok=True)
+            out = HERE / "submission" / "manuscript_anonymized.pdf"
+        else:
+            out = HERE / "CSA_YRBS_2023_manuscript.pdf"
         subprocess.run(
             [CHROME, "--headless", "--disable-gpu", "--no-pdf-header-footer",
              f"--print-to-pdf={out}", src.as_uri()],

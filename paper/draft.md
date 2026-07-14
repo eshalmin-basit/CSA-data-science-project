@@ -1,6 +1,11 @@
 # Sexual-Violence Victimization, Household Adversity, and Adolescent Substance Use and Social Withdrawal: A Design-Aware Machine-Learning Analysis of the 2023 National Youth Risk Behavior Survey
 
-*Manuscript prepared for submission — working version*
+**Eshal Minhaj**¹
+
+¹ Independent Researcher, Bhopal, Madhya Pradesh, India
+
+**Correspondence:** Eshal Minhaj, Independent Researcher, Bhopal, M.P.,
+India. Email: [corresponding email]. ORCID: [ORCID iD].
 
 **Data availability:** All analyses use the public-use 2023 National YRBS
 microdata (CDC). Complete code, the reproducible pipeline, and an
@@ -889,50 +894,64 @@ required. **Funding.** None. **Competing interests.** None declared.
 
 ## References
 
-- Brener ND, Mpofu JJ, Krause KH, et al. Overview and Methods for the Youth
-  Risk Behavior Surveillance System — United States, 2023. *MMWR Suppl*
-  2024;73(Suppl-4):1–12.
-- CDC. *2023 YRBS Data User's Guide*. September 2024.
-- Chawla NV, Bowyer KW, Hall LO, Kegelmeyer WP. SMOTE: Synthetic minority
-  over-sampling technique. *J Artif Intell Res* 2002;16:321–357.
-- Chen T, Guestrin C. XGBoost: A scalable tree boosting system. *Proc 22nd
-  ACM SIGKDD* 2016:785–794.
-- Dube SR, Felitti VJ, Dong M, Chapman DP, Giles WH, Anda RF. Childhood
-  abuse, neglect, and household dysfunction and the risk of illicit drug
-  use: the Adverse Childhood Experiences Study. *Pediatrics*
-  2003;111(3):564–572.
-- Felitti VJ, Anda RF, Nordenberg D, et al. Relationship of childhood abuse
-  and household dysfunction to many of the leading causes of death in
-  adults: the Adverse Childhood Experiences (ACE) Study. *Am J Prev Med*
-  1998;14(4):245–258.
-- Hailes HP, Yu R, Danese A, Fazel S. Long-term outcomes of childhood sexual
-  abuse: an umbrella review. *Lancet Psychiatry* 2019;6(10):830–839.
-- Imai K, Keele L, Tingley D. A general approach to causal mediation
-  analysis. *Psychol Methods* 2010;15(4):309–334.
-- Khantzian EJ. The self-medication hypothesis of substance use disorders: a
-  reconsideration and recent applications. *Harv Rev Psychiatry*
-  1997;4(5):231–244.
-- Lundberg SM, Lee S-I. A unified approach to interpreting model
-  predictions. *Adv Neural Inf Process Syst* 2017;30:4765–4774.
-- Norman RE, Byambaa M, De R, Butchart A, Scott J, Vos T. The long-term
-  health consequences of child physical abuse, emotional abuse, and neglect:
-  a systematic review and meta-analysis. *PLoS Med* 2012;9(11):e1001349.
-- Obermeyer Z, Powers B, Vogeli C, Mullainathan S. Dissecting racial bias in
-  an algorithm used to manage the health of populations. *Science*
-  2019;366(6464):447–453.
-- Platt J. Probabilistic outputs for support vector machines and comparisons
-  to regularized likelihood methods. *Advances in Large Margin Classifiers*
-  1999:61–74.
-- Resnick MD, Bearman PS, Blum RW, et al. Protecting adolescents from harm:
-  findings from the National Longitudinal Study on Adolescent Health. *JAMA*
-  1997;278(10):823–832.
-- Simpson TL, Miller WR. Concomitance between childhood sexual and physical
-  abuse and substance use problems: a review. *Clin Psychol Rev*
-  2002;22(1):27–77.
-- Steiner RJ, Sheremenko G, Lesesne C, Dittus PJ, Sieving RE, Ethier KA.
-  Adolescent connectedness and adult health outcomes. *Pediatrics*
-  2019;144(1):e20183766.
-- VanderWeele TJ, Ding P. Sensitivity analysis in observational research:
-  introducing the E-value. *Ann Intern Med* 2017;167(4):268–274.
-- Vickers AJ, Elkin EB. Decision curve analysis: a novel method for
-  evaluating prediction models. *Med Decis Making* 2006;26(6):565–574.
+- Brener, N. D., Mpofu, J. J., Krause, K. H., Everett Jones, S., Thornton,
+  J. E., Myles, Z., Harris, W. A., Chyen, D., Lim, C., Arbelo, M., &
+  Mbaka, C. K. (2024). Overview and methods for the Youth Risk Behavior
+  Surveillance System — United States, 2023. *MMWR Supplements, 73*(4),
+  1–12.
+- Centers for Disease Control and Prevention. (2024). *2023 YRBS data
+  user's guide*. U.S. Department of Health and Human Services.
+- Chawla, N. V., Bowyer, K. W., Hall, L. O., & Kegelmeyer, W. P. (2002).
+  SMOTE: Synthetic minority over-sampling technique. *Journal of Artificial
+  Intelligence Research, 16*, 321–357.
+- Chen, T., & Guestrin, C. (2016). XGBoost: A scalable tree boosting
+  system. In *Proceedings of the 22nd ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining* (pp. 785–794). ACM.
+- Dube, S. R., Felitti, V. J., Dong, M., Chapman, D. P., Giles, W. H., &
+  Anda, R. F. (2003). Childhood abuse, neglect, and household dysfunction
+  and the risk of illicit drug use: The Adverse Childhood Experiences
+  Study. *Pediatrics, 111*(3), 564–572.
+- Felitti, V. J., Anda, R. F., Nordenberg, D., Williamson, D. F., Spitz,
+  A. M., Edwards, V., Koss, M. P., & Marks, J. S. (1998). Relationship of
+  childhood abuse and household dysfunction to many of the leading causes
+  of death in adults: The Adverse Childhood Experiences (ACE) Study.
+  *American Journal of Preventive Medicine, 14*(4), 245–258.
+- Hailes, H. P., Yu, R., Danese, A., & Fazel, S. (2019). Long-term outcomes
+  of childhood sexual abuse: An umbrella review. *The Lancet Psychiatry,
+  6*(10), 830–839.
+- Imai, K., Keele, L., & Tingley, D. (2010). A general approach to causal
+  mediation analysis. *Psychological Methods, 15*(4), 309–334.
+- Khantzian, E. J. (1997). The self-medication hypothesis of substance use
+  disorders: A reconsideration and recent applications. *Harvard Review of
+  Psychiatry, 4*(5), 231–244.
+- Lundberg, S. M., & Lee, S.-I. (2017). A unified approach to interpreting
+  model predictions. *Advances in Neural Information Processing Systems,
+  30*, 4765–4774.
+- Norman, R. E., Byambaa, M., De, R., Butchart, A., Scott, J., & Vos, T.
+  (2012). The long-term health consequences of child physical abuse,
+  emotional abuse, and neglect: A systematic review and meta-analysis.
+  *PLoS Medicine, 9*(11), e1001349.
+- Obermeyer, Z., Powers, B., Vogeli, C., & Mullainathan, S. (2019).
+  Dissecting racial bias in an algorithm used to manage the health of
+  populations. *Science, 366*(6464), 447–453.
+- Platt, J. (1999). Probabilistic outputs for support vector machines and
+  comparisons to regularized likelihood methods. In A. J. Smola, P.
+  Bartlett, B. Schölkopf, & D. Schuurmans (Eds.), *Advances in large margin
+  classifiers* (pp. 61–74). MIT Press.
+- Resnick, M. D., Bearman, P. S., Blum, R. W., Bauman, K. E., Harris,
+  K. M., Jones, J., Tabor, J., Beuhring, T., Sieving, R. E., Shew, M.,
+  Ireland, M., Bearinger, L. H., & Udry, J. R. (1997). Protecting
+  adolescents from harm: Findings from the National Longitudinal Study on
+  Adolescent Health. *JAMA, 278*(10), 823–832.
+- Simpson, T. L., & Miller, W. R. (2002). Concomitance between childhood
+  sexual and physical abuse and substance use problems: A review. *Clinical
+  Psychology Review, 22*(1), 27–77.
+- Steiner, R. J., Sheremenko, G., Lesesne, C., Dittus, P. J., Sieving,
+  R. E., & Ethier, K. A. (2019). Adolescent connectedness and adult health
+  outcomes. *Pediatrics, 144*(1), e20183766.
+- VanderWeele, T. J., & Ding, P. (2017). Sensitivity analysis in
+  observational research: Introducing the E-value. *Annals of Internal
+  Medicine, 167*(4), 268–274.
+- Vickers, A. J., & Elkin, E. B. (2006). Decision curve analysis: A novel
+  method for evaluating prediction models. *Medical Decision Making,
+  26*(6), 565–574.
