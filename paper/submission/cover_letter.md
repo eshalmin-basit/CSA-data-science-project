@@ -62,4 +62,4 @@ Sincerely,
 
 Eshal Minhaj
 Independent Researcher, Bhopal, Madhya Pradesh, India
-[corresponding email] · ORCID: [ORCID iD]
+eshalminhaj12@gmail.com · ORCID: 0009-0001-9178-751X

@@ -68,7 +68,7 @@ def inline_images(html: str) -> str:
 def anonymize(md: str) -> str:
     # remove author/affiliation/correspondence block
     md = re.sub(r"\*\*Eshal Minhaj\*\*¹\n\n¹[^\n]+\n\n", "", md)
-    md = re.sub(r"\*\*Correspondence:\*\*.*?ORCID: \[ORCID iD\]\.\n\n", "", md, flags=re.S)
+    md = re.sub(r"\*\*Correspondence:\*\*.*?ORCID: \S+\.\n\n", "", md, flags=re.S)
     # blind author-identifying URLs
     md = md.replace("github.com/eshalmin-basit/CSA-data-science-project",
                     "[repository URL blinded for review]")

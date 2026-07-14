@@ -11,7 +11,8 @@ Machine-Learning Analysis of the 2023 National Youth Risk Behavior Survey
 ¹ Independent Researcher, Bhopal, Madhya Pradesh, India
 
 **Corresponding author:** Eshal Minhaj, Independent Researcher, Bhopal,
-M.P., India. Email: [corresponding email]. ORCID: [ORCID iD].
+M.P., India. Email: eshalminhaj12@gmail.com.
+ORCID: https://orcid.org/0009-0001-9178-751X.
 
 **Word count:** ~7,500 (excluding abstract, tables, figures, references)
 

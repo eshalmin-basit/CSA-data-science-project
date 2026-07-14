@@ -5,7 +5,7 @@
 ¹ Independent Researcher, Bhopal, Madhya Pradesh, India
 
 **Correspondence:** Eshal Minhaj, Independent Researcher, Bhopal, M.P.,
-India. Email: [corresponding email]. ORCID: [ORCID iD].
+India. Email: eshalminhaj12@gmail.com. ORCID: https://orcid.org/0009-0001-9178-751X.
 
 **Data availability:** All analyses use the public-use 2023 National YRBS
 microdata (CDC). Complete code, the reproducible pipeline, and an
