@@ -10,8 +10,8 @@ you; everything else is already prepared.
       2 minutes; journals effectively require it).
 - [ ] **[YOU]** Decide the email you'll use for correspondence.
 - [ ] Replace the `[corresponding email]` and `[ORCID iD]` placeholders in:
-      `paper/draft.md`, `submission/title_page.md`, `submission/cover_letter.md`
-      (ask Claude to do this once you have them), then re-render both PDFs:
+      `paper/draft.md`, `submission/title_page.md`, `submission/cover_letter.md`,
+      then re-render both PDFs:
       `python paper/render_pdf.py` and `python paper/render_pdf.py --anonymize`.
 
 ## 1. medRxiv preprint (~30 min, live in ~48 h)
